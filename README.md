@@ -15,7 +15,7 @@ https://api.flowleap.co/mcp
 |---|---|
 | Server URL | `https://api.flowleap.co/mcp` |
 | Transport | Streamable HTTP (remote; nothing to install) |
-| Tools | 51 tools, all read-only |
+| Tools | 49 tools, all read-only |
 | Sign-in | OAuth 2.1 with a FlowLeap account, one scope: `patent-data` |
 | Publisher | Flow Leap SASU |
 | Registry name | `co.flowleap/flowleap` |
@@ -79,13 +79,6 @@ tools at the time of writing.
 | `patent_analytics` | Filing trends, country and CPC breakdowns, and top assignees over a worldwide corpus |
 | `search_academic` | Academic literature from Semantic Scholar and arXiv |
 | `search_npl` | Non-patent literature from OpenAlex |
-
-**Patent-law reference search**
-
-| Tool | What it returns |
-|---|---|
-| `reference_search` | Passages from patent-law reference documents (EPC, EPO Guidelines, MPEP and more) by jurisdiction |
-| `get_legal_jurisdictions` | The jurisdictions and source documents that `reference_search` covers |
 
 **PATSTAT analytics** (FlowLeap's self-hosted copy of EPO PATSTAT Global)
 
